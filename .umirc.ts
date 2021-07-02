@@ -3,7 +3,7 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   title: 'TinsFox',
   mode: 'site',
-  // logo:'/images/logo.jpg',
+  logo: '/images/logo1.jpg',
   locales: [
     ['zh-CN', '中文'],
     ['en-US', 'English'],
