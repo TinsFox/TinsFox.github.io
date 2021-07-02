@@ -15,7 +15,10 @@ export default defineConfig({
         { title: '提问的艺术', path: 'https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md' },
         { title: 'dumi', path: 'https://d.umijs.org/config' },
       ],
-    },
+    },{
+      title:"GitHub",
+      path:"https://github.com/TinsFox/TinsFox.github.io"
+    }
   ],
   base: './',
   publicPath: './',
