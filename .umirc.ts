@@ -6,6 +6,10 @@ export default defineConfig({
   // logo:'/images/logo.jpg',
   locales:[['zh-CN', '中文'],['en-US', 'English']],
   fastRefresh: {},
+  base: './',
+  publicPath: './',
+  hash:true,
+  exportStatic: {}, // 将所有路由输出为 HTML 目录结构，以免刷新页面时 404
   navs: [
     null, // null 值代表保留约定式生成的导航，只做增量配置
     {
@@ -20,8 +24,5 @@ export default defineConfig({
       path:"https://github.com/TinsFox/TinsFox.github.io"
     }
   ],
-  base: './',
-  publicPath: './',
-  exportStatic: {}, // 将所有路由输出为 HTML 目录结构，以免刷新页面时 404
   // more config: https://d.umijs.org/config
 });
