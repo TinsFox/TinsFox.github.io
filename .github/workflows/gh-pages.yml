@@ -13,7 +13,7 @@ jobs:
       - run: npm install
       - run: npm run build
       - rum: cd dist
-      - rum: echo 'fox.tinsfox.com' > CNAME
+      - rum: echo 'fox.tinsfox.com'
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
