@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 git add .
-git commit -m "add a post"
+git commit -m "update a post"
 git push
