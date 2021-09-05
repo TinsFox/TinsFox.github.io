@@ -3,7 +3,7 @@ nav:
   title: 前端
   order: 1
 group:
-  title: 'css & html-面试题'
+  title: '面试题'
   order: 1
 ---
 
