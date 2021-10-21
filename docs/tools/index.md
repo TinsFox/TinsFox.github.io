@@ -1,7 +1,3 @@
----
-nav:
-  title: 工具
-  order: 4
----
+# 工具
 
 https://github.com/camsong/blog/issues/5
