@@ -1,4 +1,4 @@
-# css-position
+# position
 
 > position 属性用来指定一个元素在网页上的位置，一共有五种定位方式
 

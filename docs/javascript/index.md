@@ -1,5 +1,7 @@
 ---
-order: 1
+nav:
+  title: JavaScript
+  order: 1
 group:
   title: JavaScript
   order: 1
