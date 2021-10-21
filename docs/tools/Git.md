@@ -1,7 +1,3 @@
----
-title: Git
----
-
 # Git 常用命令
 
 1. 初始化 git 仓库
@@ -42,4 +38,3 @@ title: Git
    ```bash
    git remote rm origin
    ```
-

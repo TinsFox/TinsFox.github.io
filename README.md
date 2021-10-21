@@ -7,11 +7,11 @@ hero:
     - text: Getting Started
       link: /frontend
 features:
-  - title: Feature 1
+  - title: 前端基础
     desc: Balabala
-  - title: Feature 2
+  - title: 前端工程化
     desc: Balabala
-  - title: Feature 3
+  - title: 面试题
     desc: Balabala
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---

@@ -4,13 +4,10 @@ export default defineConfig({
   title: 'TinsFox',
   mode: 'site',
   logo: '/images/logo1.jpg',
-  locales: [
-    ['zh-CN', '中文'],
-    ['en-US', 'English'],
-  ],
+  locales: [['zh-CN', '中文']],
   fastRefresh: {},
   base: './',
-  publicPath: './',
+  publicPath: '/',
   hash: true,
   exportStatic: {}, // 将所有路由输出为 HTML 目录结构，以免刷新页面时 404
   navs: [
@@ -31,5 +28,4 @@ export default defineConfig({
       ],
     },
   ],
-  // more config: https://d.umijs.org/config
 });
