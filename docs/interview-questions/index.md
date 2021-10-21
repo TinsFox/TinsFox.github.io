@@ -1,7 +1,7 @@
 ---
 order: 1
 nav:
-  order: 8
+  order: 9
 group:
   order: 1
 ---
