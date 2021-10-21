@@ -1,3 +1,9 @@
+---
+nav:
+  title: Browser
+  order: 7
+---
+
 # 浏览器
 
 ## 主流浏览器及其内核

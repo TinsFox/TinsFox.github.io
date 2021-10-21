@@ -1,3 +1,9 @@
+---
+nav:
+  title: Vue
+  order: 4
+---
+
 # 介绍
 
 关于 Vue.js 的概念

@@ -1,3 +1,9 @@
+---
+nav:
+  title: 微信小程序
+  order: 6
+---
+
 # 介绍
 
 [微信小程序](https://developers.weixin.qq.com/miniprogram/dev/framework/) 是小程序提供了一个简单、高效的应用开发框架和丰富的组件及 API，帮助开发者在微信中开发具有原生 APP 体验的服务。
