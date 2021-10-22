@@ -38,3 +38,9 @@
    ```bash
    git remote rm origin
    ```
+
+7. 撤销对某个文件的所有追踪
+
+```bash
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch filename' --prune-empty --tag-name-filter cat -- --all
+```
