@@ -1,4 +1,4 @@
-# 数组
+# Array 数组
 
 一、创建数组
 
@@ -62,7 +62,7 @@ let arr2 = Array.from(arrayLike); // ['a', 'b', 'c']
 
 ## 变异数组 API
 
-> 修改原有数组数据
+> 修改原有数组数据: push() unshift()、reverse()
 
 ### 01. `push()`
 
@@ -70,7 +70,7 @@ let arr2 = Array.from(arrayLike); // ['a', 'b', 'c']
 /**
  * @param: value
  * @return: Array.length
- * @description: 将value添加到数组的最后
+ * @description: 接受任意数量的参数，并将她们添加到数组末尾，返回数组的最新长度
  */
 let a = [1, 2, 3, 4, 5, 6];
 let result = a.push(7);
@@ -84,7 +84,7 @@ console.log(result); // 7
 /**
  * @param: value
  * @return: Array.length
- * @description: 添加元素到数组的开头
+ * @description: 在数组开头添加多个值，然后返回新的数组长度
  */
 
 let a = [1, 2, 3, 4, 5, 6];
