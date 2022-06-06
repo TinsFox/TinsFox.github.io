@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktinsfox_blog=self.webpackChunktinsfox_blog||[]).push([[4364],{9501:function(s){s.exports=JSON.parse('{"permalink":"/en/blog","page":1,"postsPerPage":21,"totalPages":1,"totalCount":21,"blogDescription":"\u8fd9\u662f\u4e2a\u7528 Docusaurus \u642d\u5efa\u7684\u535a\u5ba2\uff01","blogTitle":"Docusaurus \u535a\u5ba2\uff01"}')}}]);

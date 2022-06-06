@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktinsfox_blog=self.webpackChunktinsfox_blog||[]).push([[9734],{3769:function(s){s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
