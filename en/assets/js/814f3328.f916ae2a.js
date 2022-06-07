@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktinsfox_blog=self.webpackChunktinsfox_blog||[]).push([[2535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u6b22\u8fce\u6765\u5230 Docusaurus v2","permalink":"/en/blog/welcome-docusaurus-v2"}]}')}}]);

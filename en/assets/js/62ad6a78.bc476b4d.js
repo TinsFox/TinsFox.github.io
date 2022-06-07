@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktinsfox_blog=self.webpackChunktinsfox_blog||[]).push([[8434],{7088:function(e){e.exports=JSON.parse('{"label":"facebook","permalink":"/en/blog/tags/facebook","allTagsPath":"/en/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktinsfox_blog=self.webpackChunktinsfox_blog||[]).push([[259],{2587:function(s){s.exports=JSON.parse('{"label":"\u95ed\u5305","permalink":"/docs/tags/\u95ed\u5305","allTagsPath":"/docs/tags","count":1,"items":[{"id":"javascript/\u95ed\u5305","title":"\u95ed\u5305","description":"\u7279\u6027\uff1a","permalink":"/docs/javascript/\u95ed\u5305"}]}')}}]);
