@@ -9,22 +9,16 @@ const config = {
   plugins: ["@docusaurus/theme-live-codeblock"],
   title: "TinsFox",
   tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://fox.tinsfox.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "https://avatars.githubusercontent.com/u/33956589?s=40&v=4",
   githubHost: "github.com",
   githubPort: "22",
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "TinsFox", // Usually your GitHub org/user name.
-  projectName: "TinsFox.github.io", // Usually your repo name.
+  organizationName: "TinsFox",
+  projectName: "TinsFox.github.io",
   deploymentBranch: "gh-pages",
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "zh-CN",
     locales: ["en", "zh-CN"],
@@ -37,20 +31,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "http://github.com/TinsFox.github.io",
         },
         blog: {
-          blogTitle: "Docusaurus 博客！",
-          blogDescription: "这是个用 Docusaurus 搭建的博客！",
-          postsPerPage: "ALL",
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "http://github.com/TinsFox.github.io",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -65,23 +50,27 @@ const config = {
       navbar: {
         title: "TinsFox",
         logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+          alt: "TinsFox",
+          src: "https://avatars.githubusercontent.com/u/33956589?s=40&v=4",
         },
         items: [
           {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "杂谈",
+            label: "Note",
           },
-          { to: "blog", label: "博客", position: "left" },
+          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/TinsFox/docusaurus",
             label: "GitHub",
             position: "right",
           },
         ],
+      },
+      sidebar: {
+        autoCollapseCategories: true,
+        hideable: true,
       },
       footer: {
         style: "dark",
