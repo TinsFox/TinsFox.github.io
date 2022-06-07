@@ -1,0 +1,10 @@
+position: 2 # 支持浮点数序号
+label: "CSS"
+collapsible: true # 让类别可折叠
+collapsed: false # 让类别默认开启
+className: red
+link:
+  type: generated-index
+  title: 总览
+customProps:
+  description: 这个描述可以用在 swizzle 的 DocCard 里
