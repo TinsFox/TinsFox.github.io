@@ -1,0 +1,8 @@
+position: 1 # 支持浮点数序号
+label: "小记"
+collapsible: true # 让类别可折叠
+collapsed: false # 让类别默认开启
+className: red
+link:
+  type: generated-index
+  title: 总览
