@@ -30,7 +30,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: 'sidebars.js',
           editUrl: "http://github.com/TinsFox.github.io",
         },
         blog: {
@@ -47,7 +47,17 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      liveCodeBlock: {
+        playgroundPosition: 'bottom',
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
       navbar: {
+        hideOnScroll: true,
         title: "TinsFox",
         logo: {
           alt: "TinsFox",
@@ -58,7 +68,7 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Note",
+            label: "Doc",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
@@ -79,13 +89,6 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-      },
-      liveCodeBlock: {
-        /**
-         * 实时效果显示的位置，在编辑器上方还是下方。
-         * 可为："top" | "bottom"
-         */
-        playgroundPosition: "bottom",
       },
     }),
 };

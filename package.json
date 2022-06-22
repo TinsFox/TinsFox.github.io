@@ -18,6 +18,7 @@
     "@docusaurus/preset-classic": "2.0.0-beta.21",
     "@docusaurus/theme-live-codeblock": "^2.0.0-beta.21",
     "@mdx-js/react": "^1.6.22",
+    "@type-challenges/utils": "^0.1.1",
     "clsx": "^1.1.1",
     "prism-react-renderer": "^1.3.3",
     "react": "^17.0.2",

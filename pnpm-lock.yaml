@@ -7,6 +7,7 @@ specifiers:
   '@docusaurus/theme-live-codeblock': ^2.0.0-beta.21
   '@mdx-js/react': ^1.6.22
   '@tsconfig/docusaurus': ^1.0.5
+  '@type-challenges/utils': ^0.1.1
   clsx: ^1.1.1
   prism-react-renderer: ^1.3.3
   react: ^17.0.2
@@ -18,6 +19,7 @@ dependencies:
   '@docusaurus/preset-classic': 2.0.0-beta.21_da7aa441eab317dce4b40399f38f0b05
   '@docusaurus/theme-live-codeblock': 2.0.0-beta.21_da7aa441eab317dce4b40399f38f0b05
   '@mdx-js/react': 1.6.22_react@17.0.2
+  '@type-challenges/utils': 0.1.1
   clsx: 1.1.1
   prism-react-renderer: 1.3.3_react@17.0.2
   react: 17.0.2
@@ -2510,6 +2512,10 @@ packages:
   /@tsconfig/docusaurus/1.0.5:
     resolution: {integrity: sha512-KM/TuJa9fugo67dTGx+ktIqf3fVc077J6jwHu845Hex4EQf7LABlNonP/mohDKT0cmncdtlYVHHF74xR/YpThg==}
     dev: true
+
+  /@type-challenges/utils/0.1.1:
+    resolution: {integrity: sha512-A7ljYfBM+FLw+NDyuYvGBJiCEV9c0lPWEAdzfOAkb3JFqfLl0Iv/WhWMMARHiRKlmmiD1g8gz/507yVvHdQUYA==}
+    dev: false
 
   /@types/body-parser/1.19.2:
     resolution: {integrity: sha512-ALYone6pm6QmwZoAgeyNksccT9Q4AWZQ6PvfwR37GT6r6FWUPguq6sUmNGSMV2Wr761oQoBxwGGa6DR5o1DC9g==}
