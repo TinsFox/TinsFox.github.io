@@ -30,9 +30,8 @@ jobs:
       - name: upload to surge
         id: deploy
         run: |
-          ll dist/
           export DEPLOY_DOMAIN=https://fox-pr-${{ steps.pr.outputs.id }}.surge.sh
-          npx surge --project dist/ --domain $DEPLOY_DOMAIN --token ${{ secrets.SURGE_TOKEN }}
+          npx surge --project build/ --domain $DEPLOY_DOMAIN --token ${{ secrets.SURGE_TOKEN }}
       - name: create comment
         uses: peter-evans/create-or-update-comment@v2
         with:
@@ -40,7 +39,7 @@ jobs:
           body: |
             PR preview has been successfully built and deployed to https://fox-pr-${{ steps.pr.outputs.id }}.surge.sh.
       - run: |
-          rm -rf dist/
+          rm -rf build/
       - name: The job failed
         if: ${{ failure() }}
         uses: peter-evans/create-or-update-comment@v2
