@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>TinsFox</ShortName>
+  <Description>Search TinsFox</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://fox.tinsfox.com/en/https://avatars.githubusercontent.com/u/33956589?s=40&amp;v=4</Image>
+  <Url type="text/html" method="get" template="https://fox.tinsfox.com/en/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://fox.tinsfox.com/en/opensearch.xml" />
+  <moz:SearchForm>https://fox.tinsfox.com/en/</moz:SearchForm>
+</OpenSearchDescription>
