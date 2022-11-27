@@ -2,11 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fox.tinsfox.com/en/blog</id>
     <title>TinsFox Blog</title>
-    <updated>2021-06-07T00:00:00.000Z</updated>
+    <updated>2022-11-27T15:34:08.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fox.tinsfox.com/en/blog"/>
     <subtitle>TinsFox Blog</subtitle>
     <icon>https://fox.tinsfox.com/en/https://avatars.githubusercontent.com/u/33956589?s=40&amp;v=4</icon>
+    <entry>
+        <title type="html"><![CDATA[移除Mac 下的微软自动更新]]></title>
+        <id>/2022-112-7</id>
+        <link href="https://fox.tinsfox.com/en/blog/2022-112-7"/>
+        <updated>2022-11-27T15:34:08.000Z</updated>
+        <summary type="html"><![CDATA[方法一]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_N8rP" id="方法一">方法一<a class="hash-link" href="#方法一" title="Direct link to heading">​</a></h2><div class="language-bash codeBlockContainer_z215 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_iANF"><pre tabindex="0" class="prism-code language-bash codeBlock_Glha thin-scrollbar"><code class="codeBlockLines_pwte"><span class="token-line" style="color:#393A34"><span class="token builtin class-name">cd</span><span class="token plain"> /Library/Application</span><span class="token punctuation" style="color:#393A34">\</span><span class="token plain"> Support/Microsoft/MAU2.0</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">sudo</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">chmod</span><span class="token plain"> 000 Microsoft</span><span class="token punctuation" style="color:#393A34">\</span><span class="token plain"> AutoUpdate.app</span><br></span></code></pre><div class="buttonGroup_kvxr"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_hd7s" aria-hidden="true"><svg class="copyButtonIcon_lT0_" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_mkwJ" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><h2 class="anchor anchorWithHideOnScrollNavbar_N8rP" id="方法二">方法二<a class="hash-link" href="#方法二" title="Direct link to heading">​</a></h2><div class="language-bash codeBlockContainer_z215 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_iANF"><pre tabindex="0" class="prism-code language-bash codeBlock_Glha thin-scrollbar"><code class="codeBlockLines_pwte"><span class="token-line" style="color:#393A34"><span class="token builtin class-name">cd</span><span class="token plain"> /Library/Application</span><span class="token punctuation" style="color:#393A34">\</span><span class="token plain"> Support/Microsoft/MAU2.0</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">rm</span><span class="token plain"> Microsoft</span><span class="token punctuation" style="color:#393A34">\</span><span class="token plain"> AutoUpdate.app</span><br></span></code></pre><div class="buttonGroup_kvxr"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_hd7s" aria-hidden="true"><svg class="copyButtonIcon_lT0_" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_mkwJ" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cli-welcome]]></title>
+        <id>/cli-welcome 4655efcfc5e04b5fadd8bca6c890f5e9</id>
+        <link href="https://fox.tinsfox.com/en/blog/cli-welcome 4655efcfc5e04b5fadd8bca6c890f5e9"/>
+        <updated>2022-11-20T09:41:56.000Z</updated>
+        <summary type="html"><![CDATA[Created09 AM]]></summary>
+        <content type="html"><![CDATA[<p>Created: November 6, 2022 12:09 AM
+Reviewed: No</p><blockquote><p>Welcome header for Node.js CLI software.</p></blockquote>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[欢迎来到 Docusaurus v2]]></title>
         <id>welcome-docusaurus-v2</id>
