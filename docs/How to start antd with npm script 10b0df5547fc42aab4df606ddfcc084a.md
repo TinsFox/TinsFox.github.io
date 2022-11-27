@@ -47,7 +47,3 @@ function getProjectPath(...filePath) {
 在start启动前，script 会先执行 pre-script 的前置脚本，同理，脚本会存在一个后置脚本 post-script。 
 
 举个例子，start 命令在启动前会先去查找 prestart，如果有则先运行 prestart 再运行start，poststart 则是在start 执行完成之后执行。
-
-![Untitled](How%20to%20start%20antd%20with%20npm%20script%2010b0df5547fc42aab4df606ddfcc084a/Untitled.png)
-
-![Untitled](How%20to%20start%20antd%20with%20npm%20script%2010b0df5547fc42aab4df606ddfcc084a/Untitled%201.png)
